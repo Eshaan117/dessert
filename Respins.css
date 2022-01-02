@@ -1,0 +1,295 @@
+*{
+	padding:0rem;
+	margin:0rem;
+} 
+
+html{
+	
+	width:10px;
+	height:10px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	border-radius:10px;
+	border-width:10px;
+	padding:10px;
+}
+
+.CaptImage .imagediv{
+	
+	width:65em;
+	height:35rem;
+	margin-left:13.5rem;
+	margin-right:12rem;
+	margin-top:3rem;
+	border-radius:.5rem;
+
+	
+	
+}
+.navroom {
+	
+	width:65rem;
+	height:4rem;
+	margin-left:13.5rem;
+	margin-top:2rem;
+}
+.navroom .alinker{
+	
+	float:left;
+	padding:.4rem;
+
+	text-align:center;
+	font-size:1.3rem;
+	margin-left:2rem;
+	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	opacity:70%;
+	
+	text-decoration:none;
+	color:black;
+	
+	
+	
+	
+}	
+.navroom .alinker:hover{
+	
+	opacity:100%;
+	border-bottom-width:.2rem;
+	border-bottom-color:#E3242B;
+	border-bottom-style:solid;
+	
+	
+}
+.navroom #liner{
+	
+	border-bottom-width:.2rem;
+	border-bottom-style:solid;
+	
+
+	border-bottom-color:#E3242B;
+   	
+	opacity:100%;
+	
+	
+	
+	
+}
+
+.header{
+	margin-left:34rem;
+
+	width:30rem;
+	
+	
+	height:2rem;
+	margin-top:2rem;
+    font-family:aerial , helvetica , sans-serif;
+	font-size:1.9rem;
+	color:#E3242B;	
+	letter-spacing:1.2;
+	
+}
+
+.BigDiver {
+	display:flex;
+	margin-top:5rem;
+	margin-left:17rem;
+	
+}
+
+.BigDiver .imagers{
+	
+	width:270px;
+	height:270px;
+	/* Making the display as flex! */
+
+	
+}
+.BigDiver .FirstDiv {
+	width:270px;
+	height:auto;
+
+	margin-left:50px;
+}
+	
+.BigDiver .FirstDiv p{
+	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	
+
+}
+.BigDiver .FirstDiv h2{
+	text-align:center;
+	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size:1.3rem;
+	
+}
+
+.BigDiver .FirstDiv  a{
+	
+	background-color:#E3242B;
+	border:none;
+	border-radius:.2rem;
+	float:left;
+	text-decoration:none;
+	color:white;
+	padding:.2rem;
+	width:6rem;
+	text-align:center;
+	margin-left:6rem;
+	margin-top:1rem;
+	font-size:1.1rem;
+	font-family:aerial , helvetica , sans-serif;
+	
+
+	
+	
+}
+
+#nave{
+	
+	background-color:#E3242B;
+	height:18rem;
+    width:93.7rem;
+    margin-top:4rem;
+    margin-left:none;	
+	
+	display:flex;
+
+
+	
+}
+
+#nave ul {
+	margin-left:10rem;
+	
+	margin-top:4rem;
+	
+	
+}
+
+#nave ul li{
+	
+	font-family:aerial , helvetica , sans-serif;
+	font-size:1.3rem;
+	color:white;
+	list-style-type:none;
+	margin-top:.5rem;
+	
+}
+
+#nave ul li a{
+	
+	color:white;
+	text-decoration:none;
+}
+
+.Nv{
+	
+	background-color:#E3242B;
+	height:10rem;
+    width:93.7rem;
+ 
+    margin-left:0rem;
+	
+	
+	
+}
+
+.Nv .her{
+	color:white;
+	width:80rem;
+	margin-left:4rem;
+	
+}
+
+.Nv .underNv{
+	
+	display:flex;
+	margin-top:1.1rem;
+	
+}
+
+.Nv .underNv a{
+	margin-left:5rem;
+	color:white;
+	font-family:aerial , helvetica , sans-serif;
+	font-size:1.2rem;
+}
+.Nv #lo{
+	
+	opacity:70%;
+	
+}
+
+@media only screen and (max-width:480px){
+	.CaptImage .imagediv{
+		
+		width:39rem;
+		height:23rem;
+		margin-left:8.5rem;
+		
+		
+	}
+	
+	#Social{
+		
+		display:none;
+	}
+	.header{
+		
+    margin-left:18rem;
+	margin-right:12rem;
+		
+	}
+	.BigDiver {
+	display:block;
+	margin-top:5rem;
+	margin-left:18rem;
+	
+}
+  
+
+
+.navroom {
+	
+	width:65rem;
+	height:4rem;
+	margin-left:8.5rem;
+	margin-top:2rem;
+}
+
+.BigDiver .FirstDiv {
+	
+	margin-top:5rem;
+	
+}
+#nave{
+	
+	background-color:#E3242B;
+	height:15rem;
+    width:67.7rem;
+    margin-top:4rem;
+    margin-left:none;	
+	
+	display:flex;
+
+
+	
+}
+.Nv{
+	
+	background-color:#E3242B;
+	height:10rem;
+    width:67.7rem;
+ 
+    margin-left:none;
+	
+	
+	
+}
+	
+	
+	
+}
